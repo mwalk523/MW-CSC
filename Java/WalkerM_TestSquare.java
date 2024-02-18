@@ -38,6 +38,34 @@ public class WalkerM_TestSquare
          totalArea = square1.getArea() + square2.getArea() + square3.getArea();
          System.out.println("\nTotal area is: " + totalArea);
          
+         //Current number of objects 
+         System.out.println("Current number of objects so far: " + square1.getCount());
+         System.out.println("Current number of objects so far: " + square3.getCount());
+         /*MILES WALKER: both statements gave me the same value. This is because both methods are simply calling
+         the value of cntSquare. Furthermore, because the cntSquare field is static, this value 
+         remains the same across all objects*/
          
+         Square square4 = new Square (square1);
+            System.out.println("\nSquare 1:\n" + square1.toString());
+            System.out.println("\nSquare 4:\n" + square4.toString());
+         square4.changeColor("magenta");
+            System.out.println("\nSquare 4 (after change):\n" + square4.toString());
+         
+         Square square5 = square2.copy();
+            System.out.println("\nSquare 2:\n" + square2.toString());
+            System.out.println("\nSquare 5:\n" + square5.toString());
+         square5.setSide(square5.getSide() * 2);   
+            System.out.println("\nSquare 5 (after change):\n" + square5.toString());
+            
+         System.out.print("\n");   
+         if (square1.equals(square5))
+            System.out.println("SAME");
+         else 
+            System.out.println("DIFFER");
+            
+         totalArea = square1.getArea() + square2.getArea() + square3.getArea() + square4.getArea() + square5.getArea();
+         System.out.println("\nTotal area is: " + totalArea);
+         
+         //Miles Walker, Cybersecurity
    }
 }
