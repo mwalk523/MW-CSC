@@ -32,7 +32,7 @@ public class WalkerM_Lab5 //driver for Triangle.java
       System.out.println("tri2: " + tri2.toString());
       
       //get create triangle 3
-      Triangle tri3 = new Triangle (tri2); //Copy constructor in use here!
+      Triangle tri3 = new Triangle (tri2);
       
       //compare 
       if (tri2.equals(tri3))
@@ -54,7 +54,7 @@ public class WalkerM_Lab5 //driver for Triangle.java
       Triangle tri4 = tri1.copy();
       
       //compare
-      if (tri1.equals(tri4)) //(if "true" is returned from the method
+      if (tri1.equals(tri4))
          System.out.println("Tri1 and Tri4 are the same.");
       else 
          System.out.println("Tri1 and Tri4 are different.");

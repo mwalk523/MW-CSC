@@ -171,7 +171,7 @@ switch (books)
    case 1:
    {
    System.out.println("You earn 0 points.");
-   System.out.print("oops");
+   System.out.print(" oops");
    }
    break;
    

@@ -45,20 +45,20 @@ public class WalkerM_TestSquare
          the value of cntSquare. Furthermore, because the cntSquare field is static, this value 
          remains the same across all objects*/
          
-         Square square4 = new Square (square1);
+         Square square4 = new Square (square1); //copy contructor
             System.out.println("\nSquare 1:\n" + square1.toString());
             System.out.println("\nSquare 4:\n" + square4.toString());
          square4.changeColor("magenta");
             System.out.println("\nSquare 4 (after change):\n" + square4.toString());
          
-         Square square5 = square2.copy();
+         Square square5 = square2.copy(); //copy method 
             System.out.println("\nSquare 2:\n" + square2.toString());
             System.out.println("\nSquare 5:\n" + square5.toString());
          square5.setSide(square5.getSide() * 2);   
             System.out.println("\nSquare 5 (after change):\n" + square5.toString());
             
          System.out.print("\n");   
-         if (square1.equals(square5))
+         if (square1.equals(square5)) //Used like a String's .equals method
             System.out.println("SAME");
          else 
             System.out.println("DIFFER");

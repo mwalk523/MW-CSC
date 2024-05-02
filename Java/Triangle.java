@@ -6,7 +6,6 @@ File: Class
 I, Miles Walker, pledge to follow the Honor Code in taking my Lab5
 */
 
-//to be used with WalkerM_Lab5
 public class Triangle
 {
    //attributes

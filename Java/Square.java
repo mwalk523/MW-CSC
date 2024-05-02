@@ -11,13 +11,13 @@ public class Square
    */
    
    //Constrcutor 
-   public Square() 
+   public Square() //default constructor
    {
       side = 15;
       color = "Cyan";
       cntSquare++;
    }
-   
+   //argument constructor
    public Square (int aSide, String aColor)
    {
       side = aSide;
@@ -54,7 +54,8 @@ public class Square
    }
    
    //Equals method
-   public boolean equals(Square s2)
+   public boolean equals(Square s2) /*whatever square object is put in parentheses,
+   it (along with its parameters) are set to s2*/
    {
       boolean status = false;
          if (side == s2.side && color.equalsIgnoreCase(s2.color))
