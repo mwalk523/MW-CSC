@@ -12,6 +12,7 @@ public class Pyramid extends SuperSquare
       height = 15;
       color = "red";
       material = "Red Wood";
+      count++;
    }
 
    public Pyramid(double s, String c)
@@ -19,6 +20,7 @@ public class Pyramid extends SuperSquare
       super(s, c);
       material = "Red Wood";
       height = 15;
+      count++;
       
    }  
    
@@ -28,6 +30,7 @@ public class Pyramid extends SuperSquare
       this.height = height;
       color = c;
       material = m;
+      count++;
    }
    
    public void setMaterial(String material)

@@ -2,14 +2,15 @@ public class schoolClass
 {
    protected double grade;
    protected String teacher;
+   protected static int count = 0;
    
    public schoolClass()
    {
    }
    
-   public schoolClass(String t)
+   public schoolClass(String teacher)
    {
-      teacher = t;
+      this.teacher = teacher;
       grade = 100.0;
    }
    

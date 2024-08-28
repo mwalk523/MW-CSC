@@ -3,6 +3,7 @@ public class SuperSquare
    //Fields 
    protected double side;
    protected String color; 
+   protected int count = 0;
    
    //Constructors 
    
@@ -14,6 +15,12 @@ public class SuperSquare
    {
       side = s;
       color = c;
+      count++;
+   }
+   
+   public int getCount()
+   {
+      return count;
    }
    
    public double getSide()

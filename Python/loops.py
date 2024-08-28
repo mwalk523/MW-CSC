@@ -7,13 +7,13 @@ while x <= 4: # != is a conditional operator that means "not equal"
 
 #for loops and lists
 print ("\n2. For loops and lists")
-for x in [0, 1, 2]: #1 is initialization of the variable, 1 and 2 are values that x is updated to each loop
+for x in [0, 1, 2]: #0 is initialization of the variable, 1 and 2 are values that x is updated to each loop
    print ("moew")
 #The list basically ensures that the for loop executes 3 times 
 
 #Using range function 
 for x in range(5): 
-   print ("\nmeow", end = "")
+   print ("\nmeow", end = "") #prints meow 5 times
 print ("\n")
 
 # An easier way to set the number of loops is to use the range function, which specifies the number of values the user wants back 

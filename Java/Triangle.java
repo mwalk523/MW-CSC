@@ -9,9 +9,9 @@ I, Miles Walker, pledge to follow the Honor Code in taking my Lab5
 public class Triangle
 {
    //attributes
-   private int base;
-   private int height;
-   private String color;
+   protected int base;
+   protected int height;
+   protected String color;
    
    //No arg Contructor
    public Triangle()
