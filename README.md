@@ -1,2 +1,2 @@
-# HU-CSC
- All of the work I have done during my time at Hampton, in multiple languages.
+# MW-CSC
+ Contains all of the programming work I have done so far, in multiple languages.
