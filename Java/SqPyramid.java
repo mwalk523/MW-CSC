@@ -5,7 +5,7 @@ public class SqPyramid
    private double base;
    private double height;
    private String color;
-   private static int count = 0;
+   private static int count = 0; //a static variable remains the same across all objects
    
    //Constructors
    public SqPyramid()
